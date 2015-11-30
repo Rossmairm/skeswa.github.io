@@ -6,7 +6,7 @@ title: Blog | Sandile Keswa
 <div class="post-previews">
     {% for post in site.posts limit:3 %}
         <div class="post-preview">
-            <h1 class="title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+            <h1 class="title">I love Poop<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
             <div class="date">Published on {{ post.date | date: "%B %-d, %Y" }}</div>
             <div class="content-preview">
                 {{ post.content | split:'<!--break-->' | first }}
